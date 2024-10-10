@@ -2,7 +2,6 @@
 title: API method subpage template
 slug: MDN/Writing_guidelines/Page_structures/Page_types/API_method_subpage_template
 page-type: mdn-writing-guide
-browser-compat: path.to.feature.NameOfTheMethod
 ---
 
 {{MDNSidebar}}
@@ -129,6 +128,11 @@ Here is an example where a method can raise a `DOMException` with a name of `Ind
   - : Thrown …
 - {{jsxref("TypeError")}}
   - : Thrown …
+
+## Description
+
+_Detailed description of how the method behaves_
+_Section omitted if an introductory paragraph (or two) at the top of the page is sufficient._
 
 ## Examples
 
