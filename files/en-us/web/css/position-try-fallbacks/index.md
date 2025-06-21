@@ -2,12 +2,10 @@
 title: position-try-fallbacks
 slug: Web/CSS/position-try-fallbacks
 page-type: css-property
-status:
-  - experimental
 browser-compat: css.properties.position-try-fallbacks
 ---
 
-{{CSSRef}}{{seecompattable}}
+{{CSSRef}}
 
 The **`position-try-fallbacks`** [CSS](/en-US/docs/Web/CSS) property enables you to specify a list of one or more alternative **position try fallback options** for anchor-positioned elements to be placed relative to their associated anchor elements. When the element would otherwise overflow its inset-modified containing block, the browser will try placing the positioned element in these different fallback positions, in the order provided, until it finds a value that stops it from overflowing its container or the viewport.
 
@@ -86,7 +84,7 @@ If no option can be found that will place the positioned element completely on-s
 > [!NOTE]
 > In some situations you might want to just hide overflowing positioned elements, which can be achieved using the {{cssxref("position-visibility")}} property. In most cases however it is better to keep them on-screen and usable.
 
-For detailed information on anchor features and position try fallback usage, see the [CSS anchor positioning](/en-US/docs/Web/CSS/CSS_anchor_positioning) module landing page and the [Handling overflow: try fallbacks and conditional hiding](/en-US/docs/Web/CSS/CSS_anchor_positioning/Try_options_hiding) guide.
+For detailed information on anchor features and position try fallback usage, see the [CSS anchor positioning](/en-US/docs/Web/CSS/CSS_anchor_positioning) module landing page and the [Fallback options and conditional hiding for overflow](/en-US/docs/Web/CSS/CSS_anchor_positioning/Try_options_hiding) guide.
 
 ### Predefined &lt;try-tactic&gt; values
 
@@ -370,6 +368,6 @@ See the {{cssxref("@position-try")}} reference page.
 - {{cssxref("@position-try")}} at-rule
 - {{cssxref("position-area")}}
 - [`<position-area>`](/en-US/docs/Web/CSS/position-area_value) value
-- [Handling overflow: try fallbacks and conditional hiding](/en-US/docs/Web/CSS/CSS_anchor_positioning/Try_options_hiding) guide
+- [Fallback options and conditional hiding for overflow](/en-US/docs/Web/CSS/CSS_anchor_positioning/Try_options_hiding) guide
 - [Using CSS anchor positioning](/en-US/docs/Web/CSS/CSS_anchor_positioning/Using) guide
 - [CSS anchor positioning](/en-US/docs/Web/CSS/CSS_anchor_positioning) module
